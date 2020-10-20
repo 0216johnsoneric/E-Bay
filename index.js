@@ -22,6 +22,7 @@ connection.connect(function(err) {
     start();
 });
 
+
 function start() {
   inquirer
     .prompt({
