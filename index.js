@@ -55,6 +55,7 @@ function createProduct() {
     function(err, res) {
       if (err) throw err;
       console.log(res.affectedRows + " item inserted!\n");
+      
       // Call updateProduct AFTER the INSERT completes
       updateProduct();
     }
